@@ -36,13 +36,11 @@ ul{
   gap: 6px;
 }
 .content{
-  background-color: aqua;
+  background-color: rgb(255, 145, 0);
   display: flex;
-  flex: 1;
   justify-content: space-between;
-}
-.content, p{
-  padding: 22px;
+  align-items: center;
+  margin: 0;
 }
 
 .tex{
@@ -75,7 +73,8 @@ ul{
   margin: 72px;
 }
 .copyright{
+  background-color: rgba(0, 0, 0, 0.497);
   justify-content: center;
   align-items: center;
-  bottom: 0;
+  
 }
